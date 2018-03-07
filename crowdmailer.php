@@ -7,14 +7,15 @@
 
 require_once "dbfunctions.php";
 
-$messageBody = validatePost("message");
 $from = validatePost("from");
 $subject = validatePost("subject");
 
-if (!($messageBody && $from && $subject)){
+if (!(isset($_POST['message']) && $from && $subject)){
     header('Location: result.php?r=failed');
     die();
 }
+
+$messageBody = $_POST['message'];
 
 $headers = "From: ".$from."\r\n";
 $headers .= "Content-Type: text/html; charset=UTF-8\r\n";

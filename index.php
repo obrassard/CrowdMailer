@@ -56,7 +56,7 @@ $Emails = getEmails();
 
                         <div class="form-label-group">
                             &nbsp;Hello &lt;name&gt; !
-                            <textarea name="message" id="message" class="form-control" placeholder="Message to send" required ></textarea>
+                            <textarea name="message" id="message" class="form-control" placeholder="Message to send... Btw, this text area support HTML!" required ></textarea>
                         </div>
 
                         <button class="btn btn-lg btn-primary btn-block" type="submit">Send !</button>
