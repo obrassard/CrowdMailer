@@ -1,0 +1,64 @@
+body{
+    background-color: #F6F6F6;
+}
+
+.container{
+    padding-top: 50px;
+}
+
+.fa-envelope{
+    font-size: 50px;
+}
+
+a, .fa-envelope{
+    color: #20d67f;
+}
+
+a.btn-primary{
+    color: #fff;
+}
+
+.btn-primary{
+    background-color: #20d67f !important;
+    border-color: #1cbc70 !important;
+
+}
+
+input{
+    height: 50px;
+}
+
+textarea{
+    margin-top: 5px;
+    height: 80px;
+}
+
+input,
+textarea,
+.card{
+    margin-bottom: 15px;
+}
+
+
+#mailing-list{
+    display: none;
+}
+
+/*=================== Result page ====================*/
+
+#result{
+    padding-top: 18%;
+}
+
+.result-icon{
+    margin-bottom: 15px;
+    font-size: 80px;
+}
+
+.red {
+    color: #c30000;
+}
+
+.green{
+    color: limegreen;
+}
