@@ -31,7 +31,7 @@ $Emails = getEmails();
                         <i class="far fa-envelope"></i>
                         <h1 class="h3 mb-3 font-weight-normal">Crowd Mailer</h1>
                         <p>A simple program to send custom emails to a group of persons.</p>
-                        <button type="button" id="btn-toggle" class="btn btn-dark btn-sm">Check your current mailing list...</button>
+                        <button type="button" id="btn-toggle" class="btn btn-dark btn-sm">Check your current mailing list</button>
                     </div>
 
                     <div class="card" id="mailing-list">
